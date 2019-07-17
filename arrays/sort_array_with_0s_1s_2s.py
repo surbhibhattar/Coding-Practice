@@ -21,8 +21,8 @@ def take_input():
         array = list(map(int, input().split()))  
         sorted_array = sort_in_place(array)
         for i in range(0, N):
-            print(sorted_array[i], end=' ')
-        print()
+            print(sorted_array[i], end=' ') # this end = '' is added to avoid printing on a new line
+        print() #this empty print is added to get a new line after every test case
 
 def sort(array):
     zeroes = 0
