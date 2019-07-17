@@ -1,2 +1,2 @@
 # Coding-Practice
-This will contain python programs for some common prograaming problems
+This contains python programs for some common programing problems
