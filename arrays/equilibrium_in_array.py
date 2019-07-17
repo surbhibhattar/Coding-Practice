@@ -1,3 +1,27 @@
+''' We want to find an equilibrium position in array such that sum of elements before it is equal to 
+    sum of elements after it
+    
+    INPUT
+    T               -> 'T' test cases
+    N               -> 'N' # of array elements
+    <space separated array elements>
+    
+    OUTPUT
+    <equilibrium position i.e. array index
+    or -1 if it doesn't exist>
+
+    Ex. 
+    Input:
+    2
+    1
+    1
+    5
+    1 3 5 2 2
+
+    Output:
+    1
+    3
+'''
 def take_input():
     T = int(input())
     for t in range(0, T):
