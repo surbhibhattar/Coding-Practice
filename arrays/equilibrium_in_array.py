@@ -21,6 +21,15 @@
     Output:
     1
     3
+
+    Constraints:
+    1 <= T <= 100
+    1 <= N <= 10^6
+    1 <= Ai <= 10^8
+
+    Time Complexity:
+    O(n)
+
 '''
 def take_input():
     T = int(input())
